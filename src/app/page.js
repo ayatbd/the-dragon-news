@@ -1,5 +1,20 @@
+import LatestNews from "@/components/ui/LatestNews";
+import SideBar from "@/components/ui/SideBar";
+import { Grid } from "@mui/material";
+
 const HomePage = () => {
-  return <div></div>;
+  return (
+    <>
+      <Grid container spacing={2}>
+        <Grid item xs={8}>
+          <LatestNews />
+        </Grid>
+        <Grid item xs={4}>
+          <SideBar />
+        </Grid>
+      </Grid>
+    </>
+  );
 };
 
-export default page;
+export default HomePage;
