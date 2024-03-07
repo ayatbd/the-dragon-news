@@ -30,7 +30,7 @@ function Navbar() {
     },
     {
       route: "Category",
-      pathname: "/category",
+      pathname: "/categories/news",
     },
     {
       route: "News",
